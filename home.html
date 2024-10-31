@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/general.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.css">
+
+    <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+    
+</head>
+<body>
+    <header>
+        <div class="collapsible-box inactive">
+        </div>
+        <div class="logo-box">
+            <div class="logo logo1">
+                <p>J</p>
+            </div>
+            <div class="logo-extended">
+                <div class="logo-extended11">
+                    <p>JELENA&nbsp;&nbsp;GRKINIĆ</p>
+                    <p>PHOTOGRAPHY</p>
+                </div>
+            </div>
+            <div class="logo">
+                <p>G</p>
+            </div>
+            <div class="burger-menu" data-cursor="-inverse">
+                <span class="span1"></span>
+                <span class="span2"></span>
+                <span class="span3"></span>
+            </div>
+        </div>
+        <div class="nav-mobile-menu nav-mobile-not-active" >
+                <div class="first-menu-group">
+                    <a href="">PO&#268;ETNA</a>
+                    <a href="">O MENI</a>
+                    <a href="">CENOVNIK</a>
+                </div>
+                <hr class="horizontal-line">
+                <div class="second-menu-group">
+                    <div class="second-menu-subcontainer">
+                        <a href="">MATURE</a>
+                        <a href="">KRŠTENJA</a>
+                        <a href="">ROĐENDANI</a>
+                    </div>
+                </div>
+        </div>
+    </header>
+    <script>
+        const cursor = new MouseFollower({
+        container: document.body,
+        speed: 0.3
+});
+    </script>
+    <script src="scripts/home.js"></script>
+</body>
+</html>
